@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #DCDCDC;
+}
+
+#header1 {
+  background-color: turquoise;
+  border: 5px solid gold;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Sigmar One', cursive;
+  font-size: 50px;
+}
+
+#box-model-display {
+  display: flex;
+  border: 2px dotted white;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 0%;
+  padding: 20px;
+  color: magenta;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: 'Shadows Into Light', cursive;
+
+}
+
+
+#pics {
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; dont need this -- align items is vertical. justify content is horizontal*/
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 160px;
+  margin-right: 160px
+}
+
+.box {
+  width: 33.333%;
+  /* object-fit: cover; */
+
+}
+
+@media screen and (max-width: 900px) {
+  #header1 {
+    background: magenta;
+  }
+}
